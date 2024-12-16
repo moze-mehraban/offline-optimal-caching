@@ -1,6 +1,3 @@
-from sys import flags
-
-
 slut=int(input())
 data=list(map(int,input().split()))
 cache=[]
