@@ -12,7 +12,7 @@ for i in range( len(data)):
                 if k[0] not in data[i:]:
                     l1.append(k)
             if len(l1)>0:
-                l1=sorted(l1,key=lambda tup: tup[1])
+                l1=sorted(l1,key=lambda tup: tup[0])
                 tmp=cache.pop(cache.index(l1[0]));
                 print(tmp[0],end=" ")
                 cache.append((data[i],i))
